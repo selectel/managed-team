@@ -2,7 +2,7 @@
 Скрипт для добавления ssh ключа команды Managed Services для пользователя root.
 Использование:
 
-wget -O https://raw.githubusercontent.com/selectel/managed-team/master/selectel-add-key/selectel-add-key.sh -O ./selectel-add-key.sh && chmod +x ./selectel_addkey.sh && sudo ./selectel_addkey.sh
+wget https://raw.githubusercontent.com/selectel/managed-team/master/selectel-add-key/selectel-add-key.sh -O ./selectel-add-key.sh && chmod +x ./selectel_addkey.sh && sudo ./selectel_addkey.sh
  
 или
  
