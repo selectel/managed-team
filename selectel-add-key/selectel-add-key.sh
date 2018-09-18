@@ -8,7 +8,7 @@ else
     read reply
     case "$reply" in
     y|Y) echo "Downloading key..."
-         curl https://github.com/selectel/managed-team/raw/master/selectel-add-key/sshgate.key >> /root/.ssh/authorized_keys
+         curl https://raw.githubusercontent.com/selectel/managed-team/master/selectel-add-key/sshgate.key >> /root/.ssh/authorized_keys
          echo "Key installed!"
          ;; n|N) echo "Adding key cancelled by user!"
          ;; *)   echo "Wrong reply, aborting!"
